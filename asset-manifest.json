@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/doorbyn/static/css/main.073c9b0a.css",
+    "main.js": "/doorbyn/static/js/main.a80b8f1e.js",
+    "static/js/787.c7acb3f2.chunk.js": "/doorbyn/static/js/787.c7acb3f2.chunk.js",
+    "service-worker.js": "/doorbyn/service-worker.js",
+    "static/media/logo.svg": "/doorbyn/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/doorbyn/index.html",
+    "main.073c9b0a.css.map": "/doorbyn/static/css/main.073c9b0a.css.map",
+    "main.a80b8f1e.js.map": "/doorbyn/static/js/main.a80b8f1e.js.map",
+    "787.c7acb3f2.chunk.js.map": "/doorbyn/static/js/787.c7acb3f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a80b8f1e.js"
+  ]
+}

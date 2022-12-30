@@ -1,23 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from './firebase';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
+  const sendData = async () => {
+    // Add a new document in collection "cities" with ID 'LA'
+    try {
+      await addDoc(collection(db, "contact"), {
+        email: 'yks.nit2@gmail.com',    
+      });
+    } catch (error) {
+      console.log('error', error);
+    }
+  }
+
+  useEffect(() => {
+    sendData();
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Door Byn
-        </a>
       </header>
     </div>
   );

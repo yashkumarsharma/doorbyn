@@ -25,7 +25,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <div data-id="internal-testing" />
+      <div data-id="internal-testing"> Test Run 1 </div>
     </div>
   );
 }

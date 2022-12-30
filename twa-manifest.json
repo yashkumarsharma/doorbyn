@@ -1,0 +1,43 @@
+{
+  "packageId": "com.doorbyn.pwa",
+  "host": "yashkumarsharma.github.io",
+  "name": "Doorbyn",
+  "launcherName": "Doorbyn",
+  "display": "standalone",
+  "themeColor": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#282C34",
+  "enableNotifications": true,
+  "startUrl": "/doorbyn/",
+  "iconUrl": "https://yashkumarsharma.github.io/doorbyn/logo512.png",
+  "maskableIconUrl": "https://yashkumarsharma.github.io/doorbyn/logo512.png",
+  "monochromeIconUrl": "https://yashkumarsharma.github.io/doorbyn/favicon.ico",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/yks/projects/doorbyn/android.keystore",
+    "alias": "doorbyn"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://yashkumarsharma.github.io/doorbyn/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://yashkumarsharma.github.io/doorbyn/",
+  "minSdkVersion": 19,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}

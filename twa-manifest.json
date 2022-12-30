@@ -36,7 +36,11 @@
   "fullScopeUrl": "https://yashkumarsharma.github.io/doorbyn/",
   "minSdkVersion": 19,
   "orientation": "default",
-  "fingerprints": [],
+  "fingerprints": [
+    {
+      "value": "F3:DE:5E:94:4F:94:F3:21:E9:66:E4:CC:73:D7:EA:76:1F:A8:58:09:99:8F:B2:2D:A5:87:B3:CC:49:48:BD:A7"
+    }
+  ],
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
   "appVersion": "1"

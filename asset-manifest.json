@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/doorbyn/static/css/main.9ba650a0.css",
-    "main.js": "/doorbyn/static/js/main.12ccb6d8.js",
+    "main.js": "/doorbyn/static/js/main.e33faeb6.js",
     "static/js/787.c7acb3f2.chunk.js": "/doorbyn/static/js/787.c7acb3f2.chunk.js",
-    "static/media/logo.png": "/doorbyn/static/media/logo.c8d5bf397382ee725e58.png",
+    "static/media/logo.png": "/doorbyn/static/media/logo.bac4d7ae43a200c06c2a.png",
     "service-worker.js": "/doorbyn/service-worker.js",
     "static/media/loader.gif": "/doorbyn/static/media/loader.a1a996746e5e48352c81.gif",
     "index.html": "/doorbyn/index.html",
     "main.9ba650a0.css.map": "/doorbyn/static/css/main.9ba650a0.css.map",
-    "main.12ccb6d8.js.map": "/doorbyn/static/js/main.12ccb6d8.js.map",
+    "main.e33faeb6.js.map": "/doorbyn/static/js/main.e33faeb6.js.map",
     "787.c7acb3f2.chunk.js.map": "/doorbyn/static/js/787.c7acb3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ba650a0.css",
-    "static/js/main.12ccb6d8.js"
+    "static/js/main.e33faeb6.js"
   ]
 }

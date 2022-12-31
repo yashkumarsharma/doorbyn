@@ -28,7 +28,7 @@ function App() {
         email: inputEmail
       });
       setInputEmail('');
-      setInputSuccess('You are now subscribed!')
+      setInputSuccess('Welcome to Doorbyn. Your pet will love us.')
     } catch (error) {
       console.log('error', error);
     }
@@ -62,16 +62,16 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {!inputSuccess && (
           <>
-            <p>Provide your email:</p>
+            <p>Something cool coming soon for Pet Lovers. Provide your email for early access</p>
             <input className="input" type="text" name="email" value={inputEmail} onChange={onInputEmailChange} />
             <div className="submitSection">
-              <button className="button" onClick={onSubscribe} disabled={isLoading}>Subscribe</button>
+              <button className="button" onClick={onSubscribe} disabled={isLoading}>Submit</button>
               {isLoading && <img src={loader} className="loader" alt="loader" />}
             </div>
           </>          
         )}
-        <p>{inputError}</p>
-        <p>{inputSuccess}</p>
+        <p className="errorMessage">{inputError}</p>
+        <p className="successMessage">{inputSuccess}</p>
       </header>
     </div>
   );

@@ -22,8 +22,8 @@ plugins {
 
 def twaManifest = [
     applicationId: 'com.doorbyn.pwa',
-    hostName: 'yashkumarsharma.github.io', // The domain being opened in the TWA.
-    launchUrl: '/doorbyn/', // The start path for the TWA. Must be relative to the domain.
+    hostName: 'pwa.doorbyn.in', // The domain being opened in the TWA.
+    launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Doorbyn', // The application name.
     launcherName: 'Doorbyn', // The name shown on the Android Launcher.
     themeColor: '#000000', // The color used for the status bar.
@@ -31,7 +31,7 @@ def twaManifest = [
     navigationColorDark: '#000000', // The color used for the dark navbar.
     navigationDividerColor: '#000000', // The navbar divider color.
     navigationDividerColorDark: '#000000', // The dark navbar divider color.
-    backgroundColor: '#FFD15A', // The color used for the splash screen background.
+    backgroundColor: '#FFD159', // The color used for the splash screen background.
     enableNotifications: true, // Set to true to enable notification delegation.
     // Every shortcut must include the following fields:
     // - name: String that will show up in the shortcut.
@@ -40,7 +40,7 @@ def twaManifest = [
     // - icon: Name of the resource in the drawable folder to use as an icon.
     shortcuts: [],
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
-    splashScreenFadeOutDuration: 300,
+    splashScreenFadeOutDuration: 500,
     generatorApp: 'bubblewrap-cli', // Application that generated the Android Project
     // The fallback strategy for when Trusted Web Activity is not avilable. Possible values are
     // 'customtabs' and 'webview'.
@@ -56,7 +56,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 31
         versionCode 4
-        versionName "4"
+        versionName "1.0.0"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name
@@ -72,12 +72,12 @@ android {
             // The URL the Web Manifest for the Progressive Web App that the TWA points to. This
             // is used by Chrome OS and Meta Quest to open the Web version of the PWA instead of
             // the TWA, as it will probably give a better user experience for non-mobile devices.
-            resValue "string", "webManifestUrl", 'https://yashkumarsharma.github.io/doorbyn/manifest.json'
+            resValue "string", "webManifestUrl", 'https://pwa.doorbyn.in/manifest.json'
         
 
         
             // This is used by Meta Quest.
-            resValue "string", "fullScopeUrl", 'https://yashkumarsharma.github.io/doorbyn/'
+            resValue "string", "fullScopeUrl", 'https://pwa.doorbyn.in/'
         
 
         

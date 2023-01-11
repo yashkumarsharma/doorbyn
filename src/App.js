@@ -19,6 +19,10 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
+    alert(window.matchMedia('(display-mode: standalone)').matches);
+  }, []);
+
+  useEffect(() => {
     setIsLoading(false);
   }, [inputError, inputSuccess])
 

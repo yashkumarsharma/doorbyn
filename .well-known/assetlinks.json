@@ -1,6 +1,11 @@
-[{
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target" : { "namespace": "android_app", "package_name": "com.doorbyn.pwa",
-                     "sha256_cert_fingerprints": ["F3:DE:5E:94:4F:94:F3:21:E9:66:E4:CC:73:D7:EA:76:1F:A8:58:09:99:8F:B2:2D:A5:87:B3:CC:49:48:BD:A7"] }
-      }
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.doorbyn.pwa",
+      "sha256_cert_fingerprints":
+        ["F3:DE:5E:94:4F:94:F3:21:E9:66:E4:CC:73:D7:EA:76:1F:A8:58:09:99:8F:B2:2D:A5:87:B3:CC:49:48:BD:A7"]
+    }
+  }
 ]
